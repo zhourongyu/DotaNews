@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+<title>短网址测试地址</title>
+</head>
+<body>
+
+    <form>
+	<div>
+        <input type="text" name="url" value="${url}"> 
+        <button type="submit">生成短网址</button>
+        %if url_short:
+            <div>短网址 : <input type="text" value="${url_short}"></div>
+        %endif
+	</div>
+    </form>
+
+</body>
